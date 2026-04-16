@@ -5,7 +5,7 @@ A standalone Claude Code skill for explore mode — extracted from [OpenSpec](ht
 ## Installation
 
 ```bash
-npx skills add bakabird/project-explore-skill@project-explore
+npx skills add bakabird/project-explore-skill@explore-in-project
 ```
 
 ## Why this exists
