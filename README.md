@@ -5,32 +5,16 @@ A standalone Claude Code skill for explore mode — extracted from [OpenSpec](ht
 ## Installation
 
 ```bash
-npx skills install github:bakabird/project-explore-skill/project-explore
-```
-
-Or from a local clone:
-
-```bash
-npx skills install ./skills/project-explore
-```
-
-Then invoke with:
-
-```
-/explore-in-project
+npx skills add bakabird/project-explore-skill@project-explore
 ```
 
 ## Why this exists
 
-[OpenSpec](https://github.com/Fission-AI/OpenSpec) is a fantastic project. Its `explore` skill is one of the most thoughtfully designed thinking/comprehension aids I've encountered in a CLI tool — deep, adaptive, and genuinely helpful for understanding complex codebases.
+[OpenSpec](https://github.com/Fission-AI/OpenSpec) is a fantastic project. Its `explore` skill is one of the most thoughtfully designed thinking/comprehension aids, deep, adaptive, and genuinely helpful for understanding complex codebases.
 
-But sometimes you just want the explore functionality. No ceremony, no extra framework. You want `/explore-in-project`, enter, and start thinking through a problem with your codebase as context.
+But sometimes you just want the explore functionality. No other commands and skills of OpenSpec. You want `/explore-in-project`, enter, and start thinking through a problem with your codebase as context.
 
 This skill extracts that core capability into a single, self-contained `SKILL.md`. No dependencies, no config beyond what you already have.
-
-## What explore mode is
-
-It's a stance, not a workflow. You're a thinking partner — curious, visual, adaptive. You read code, ask questions, draw diagrams, surface tradeoffs. You do not write code.
 
 ```
 /explore-in-project real-time collaboration
